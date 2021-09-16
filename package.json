@@ -1,5 +1,5 @@
 {
-    "name": "crawl-image",
+    "name": "api-covid-vn",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
