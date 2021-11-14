@@ -21,3 +21,5 @@ npm install
 ### Run application
 
 > `npm run start`
+
+Or use API with this [link](https://stark-castle-50415.herokuapp.com/) .
