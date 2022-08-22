@@ -22,4 +22,4 @@ npm install
 
 > `npm run start`
 
-Or use API with this [link](https://stark-castle-50415.herokuapp.com/) .
+Or use API with this [link](https://apicovidvn.azurewebsites.net/) .
