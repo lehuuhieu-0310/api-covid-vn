@@ -33,7 +33,7 @@ const solieu = async (req, res) => {
     let capnhat = await page.evaluate(() => {
         return document.querySelector('div.container > div.red.center.mb20').innerText
     })
-    capnhat = capnhat.slice(32).trim()
+    capnhat = capnhat.trim()
 
     const tong = { nhiem: nhiem[0], khoi: khoi[0], tuvong: tuvong[0] }
     const homnay = { nhiem: nhiem[1].slice(17), khoi: khoi[1].slice(17), tuvong: tuvong[1].slice(17) }
