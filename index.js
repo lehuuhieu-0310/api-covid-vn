@@ -8,7 +8,10 @@ const port = process.env.PORT || 3000
 const url = 'https://vnexpress.net/covid-19/covid-19-viet-nam'
 
 const solieu = async (req, res) => {
-    const browser = await puppeteer.launch({ args: ['--no-sandbox'] })
+    const browser = await puppeteer.launch({
+        args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu"],
+        ignoreDefaultArgs: ["--disable-extensions"],
+    })
     const page = await browser.newPage()
     await page.goto(url, { waitUntil: 'networkidle2' })
 
