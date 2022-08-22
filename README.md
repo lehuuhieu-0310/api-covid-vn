@@ -22,4 +22,4 @@ npm install
 
 > `npm run start`
 
-Or use API with this [link](https://apicovidvn.azurewebsites.net/) .
+Or use API with this [link](https://apicovidvn.herokuapp.com/) .
